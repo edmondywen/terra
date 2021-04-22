@@ -1,3 +1,2 @@
 # terra
-YTP Spring 2021 
-the cleantech team 
+YTP Spring 2021—the cleantech team 
