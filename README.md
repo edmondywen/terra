@@ -1,2 +1,4 @@
 # terra
-YTP Spring 2021—the cleantech team 
+Innovate@UCLA 
+YTP Spring 2021 
+CleanTech Team 
