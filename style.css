@@ -38,6 +38,11 @@ p{
 .landing-search h1{
     padding-left: 8vw; 
 }
+
+h1.who-box{
+    font-size: 2vw
+}
+
 input[type=text]{
     width: 90%;
     border: none;  
