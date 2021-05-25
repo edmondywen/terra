@@ -27,6 +27,17 @@ p{
     font-size: 1vw;
 }
 
+p.what-is-text{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    
+    color: #333333;
+}
+
 input[type=text]{
     width: 90%;
     border: none;  
