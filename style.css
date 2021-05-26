@@ -126,6 +126,26 @@ input[type=image]{
     padding: 1vw;
     border-radius: 10px; 
     box-shadow: 3px 3px 4px 5px rgba(0, 0, 0, 0.25);
+    background-color: #ffffff;
+}
+
+.border-custom-login{
+    border-style: none; 
+    padding: 4vw 8vw 2vw 8vw;
+    text-align: left;
+    border-radius: 10px; 
+    box-shadow: 3px 3px 4px 5px rgba(0, 0, 0, 0.25);
+    background-color: #ffffff;
+}
+
+.border-custom-login input{
+    border: 2px solid #BABABA;
+box-sizing: border-box;
+border-radius: 5px;
+}
+
+.character{
+    z-index: -1; 
 }
 
 /* || Footer */
