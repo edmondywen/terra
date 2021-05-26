@@ -35,12 +35,14 @@
 <div class = "container-fluid" style = "margin: 8rem;">
     <div class = "row text-center">
         <div class = "col-3"></div>
-        <img src = "images/orange.png" style = "position: absolute; left:27vw; top:55vh; transform: rotate(-23.5deg);" class = "character">
-        <img src = "images/pear.png" style = "position: absolute; right:9vw; top:45vh; transform: rotate(10.87deg);" class = "character">
-        <img src = "images/apple.png" style = "position: absolute; right:11vw; top:63vh; transform: rotate(11.46deg) scale(0.7);" class = "character">
+        <img src = "images/orange w cap.svg" style = "position: absolute; right:7vw; top:47vh; transform: rotate(7.08deg);" class = "character">
         <div class = "col-6">
-            <h1>Sign In</h1>
+            <h1>Create a Volunteer Account</h1>
                 <form class = "border-custom-login text-left">
+                    <div class="form-group">
+                        <label for="name">Full name</label>
+                        <input type="name" class="form-control" id="name">
+                      </div>
                     <div class="form-group">
                       <label for="email">Email</label>
                       <input type="email" class="form-control" id="email">
@@ -54,7 +56,7 @@
                       <label class="form-check-label" for="exampleCheck1">Show password</label>
                     </div>
                     <br>
-                    <div class = "row justify-content-center"><button type="submit" class="btn-standard-green">Log in</button></div>
+                    <div class = "row justify-content-center"><button type="submit" class="btn-standard-green">Next</button></div>
                     <script>
                         function showPass() {
                           var x = document.getElementById("password");
@@ -66,7 +68,7 @@
                         }   
                         </script>
                   </form>
-              <h6 style = "color: #478040; margin-top: 2vw;"><strong>Create a new account</strong></h6>             
+              <h6 style = "color: #478040; margin-top: 2vw;"><strong>Sign in instead</strong></h6>             
         </div>
     </div>
 </div>
