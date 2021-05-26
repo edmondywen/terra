@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+    <script src="script.js"></script>
+
+    <title>Terra</title>
+</head>
+
+<!-- navbar -->
+<nav class="navbar navbar-custom navbar-expand-lg navbar-light fixed-top">
+    <a class="navbar-brand" href="index.html"><img src = "images/leaf-logo.png"/></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav ml-auto">
+        <a class="nav-item nav-link" href="resources.html">Resources</a>
+        <a class="nav-item nav-link" href="communications.html">Communications</a>
+        <a class="nav-item nav-link" href="about.html">About</a>
+        <a class="nav-item nav-link" href="login.html">Login or Sign Up</a>
+      </div>
+    </div>
+</nav>
+
+<div class = "container-fluid" style = "margin: 8rem;">
+    <div class = "row text-center">
+        <div class = "col-3"></div>
+        <img src = "images/pear w shovel.svg" style = "position: absolute; right:4vw; top:47vh; transform: rotate(14.08deg) scaleX(-1);" class = "character">
+        <div class = "col-6">
+            <h1>Create a Compost Hub Account</h1>
+                <form class = "border-custom-login text-left">
+                    <div class="form-group">
+                        <label for="name">Organization name</label>
+                        <input type="org" class="form-control" id="org">
+                      </div>
+                    <div class="form-group">
+                      <label for="email">Email</label>
+                      <input type="email" class="form-control" id="email">
+                    </div>
+                    <div class="form-group">
+                      <label for="password">Password</label>
+                      <input type="password" class="form-control" id="password">
+                    </div>
+                    <div class="form-check">
+                      <input type="checkbox" class="form-check-input" id="exampleCheck1" onclick = "showPass()">
+                      <label class="form-check-label" for="exampleCheck1">Show password</label>
+                    </div>
+                    <br>
+                    <div class = "row justify-content-center"><button type="submit" class="btn-standard-green">Next</button></div>
+                    <script>
+                        function showPass() {
+                          var x = document.getElementById("password");
+                          if (x.type === "password") {
+                            x.type = "text";
+                          } else {
+                            x.type = "password";
+                          }
+                        }   
+                        </script>
+                  </form>
+              <h6 style = "color: #478040; margin-top: 2vw;"><strong>Sign in instead</strong></h6>             
+        </div>
+    </div>
+</div>
+
+</body>
