@@ -148,6 +148,10 @@ border-radius: 5px;
     z-index: -1; 
 }
 
+.reroute:hover{
+    text-decoration:underline;
+}
+
 /* || Footer */
 .footer{
     background-color: #4A3530;
