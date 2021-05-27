@@ -34,8 +34,10 @@
 
 <div class = "container-fluid" style = "margin-top: 8rem;">
   <div class = "row text-center">
-        <div class = "col-3"></div>
-        <img src = "images/orange w cap.svg" style = "position: absolute; right:16vw; top:47vh; transform: rotate(7.08deg);" class = "character">
+        <div class = "col-3">
+          <p style = "position: relative; left:67.5vw; top:27vh;">Glad you're joining us!</p>
+          <img src = "images/orange w cap.svg" style = "position: relative; left:65vw; top:30vh; transform: rotate(7.08deg);" class = "character">
+        </div>
         <div class = "col-6">
             <h1>Create a Volunteer Account</h1>
                 <form class = "border-custom-login text-left">
@@ -56,7 +58,7 @@
                       <label class="form-check-label" for="exampleCheck1">Show password</label>
                     </div>
                     <br>
-                    <div class = "row justify-content-center"><button type="submit" class="btn-standard-green">Next</button></div>
+                    <div class = "row justify-content-center"><button type="submit" class="btn-standard-green">Create account</button></div>
                     <script>
                         function showPass() {
                           var x = document.getElementById("password");
@@ -68,7 +70,9 @@
                         }   
                         </script>
                   </form>
-              <h6 style = "color: #478040; margin-top: 2vw;"><strong>Sign in instead</strong></h6>             
+                  <div class="reroute" onclick="location.href='login.html';" style="cursor: pointer;">
+                    <h6 style = "color: #478040; margin-top: 2vw;">Sign in instead</h6> 
+                  </div>             
         </div>
     </div>
 </div>
