@@ -28,7 +28,7 @@
         <a class="nav-item nav-link" href="resources.html">Resources</a>
         <a class="nav-item nav-link" href="communications.html">Communications</a>
         <a class="nav-item nav-link" href="about.html">About</a>
-        <a class="nav-item nav-link" href="login.html">Login or Sign Up</a>
+        <a class="nav-item nav-link" href="login.html">Login</a>
       </div>
     </div>
 </nav>
@@ -43,8 +43,8 @@
         <div class = "col-2"></div>
         <div class = "col-6 text-left">
             <form>
-                <label for="location" style="font-weight: 600;">Search for compost hubs near you:</label><br>
-                <div style = "background-color: white; border-radius: 10px; height: 5vh"> 
+                <label for="location" style="font-weight: 600; position: relative; top: 10vh">Search for compost hubs near you:</label><br>
+                <div style = "background-color: white; border-radius: 10px; height: 5vh; position: relative; top: 10vh"> 
                 <input type="text" id="location" name="location" value="address, zip code, or city">
                 <input type="image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Search_Icon.svg/1024px-Search_Icon.svg.png" alt="Search">
                </div>
@@ -54,21 +54,18 @@
     <br> 
     <div class = "row">
         <div class = "col-1"></div>
-        <div class = "col-2 text-right">
+        <div class = "col-2 text-right" style="position:relative; left:50vw; bottom: 18vh;">
             <img src = "images/pineapple-right.svg" height = "200">
         </div>
 
-        <div class = "col-2 text-left">
-            <p><br><br><br></p>
+        <div class = "col-2 text-left" style="position: relative; left:37.5vw; bottom: 7.5vh;">
             <img src = "images/orange w cap.svg" height = "100">
         </div>
 
-        <div class = "col-5 text-right" style = "color: white">
-            <h1>Want to start <br> composting but <br> don't know how?</h1>
-            <button type="button" class="btn btn-standard-clear">Get Started</button>
+        <div class = "col-3 text-left" style = "color: white;">
+            <h2 style="position: relative; right:17vw; top: 12vh;">Want to start composting but don't know how?</h2>
+            <button type="button" class="btn btn-standard-clear" style="position: relative; right:24vw; top: 12vh;position: relative; right:17vw; top: 13vh;">Get Started</button>
         </div>
-        <!-- empty column for spacing -->
-        <div class = "col-2"></div>
     </div>
 </div>
 
@@ -93,20 +90,25 @@
         <div class = "col-2"></div>
         <div class = "col-3 text-center">
             <div class = " pink-circle rounded-circle">
-                <img src = "images/pineapple.png">
-                <p class = "what-is-text">connect with <br> others</p>
-            </div>
-        </div>
-        <div class = "col-3 text-center" >
-            <div class = " pink-circle rounded-circle">
-                <img src = "images/orange.png" style="position:relative; top: 50px;">
-                <p class = "what-is-text" style="position:relative; top: 65px;">drop off food waste</p>
+                <img src = "images/phone.png">
+                <img src = "images/pineapple.png" style="position:relative; right: 2vw; bottom: 5vh">
+                <p class = "what-is-text" style="position:relative; bottom: 5vh">connect with <br> others</p>
             </div>
         </div>
         <div class = "col-3 text-center">
             <div class = " pink-circle rounded-circle">
-                <img src = "images/apple.png" style="position:relative; top: 50px;">
-                <p class = "what-is-text" style="position:relative; top: 65px;">map to search compost hubs</p></div>
+                <p class = "what-is-text" style="position:relative; top: 65px;">drop off food waste</p>
+                <img src = "images/pear.png" style="position:relative; left: 10vw; top: 65px;">
+                <img src = "images/arrow.png" style="position:relative; left: 0vw; top: 65px;">
+                <img src = "images/trash-can.png" style="position:relative; right: 8vw; top: 65px;">
+                <img src = "images/orange.png" style="position:relative; right: 8vw; bottom: 10vh;">
+            </div>
+        </div>
+        <div class = "col-3 text-center">
+            <div class = " pink-circle rounded-circle">
+                <img src = "images/apple.png" style="position:relative; left: 1vw; z-index: 1;">
+                <img src = "images/map.svg" style ="position:relative; right: 1vw; ">
+                <p class = "what-is-text" style="position:relative; top: 2vh">map to search compost hubs</p></div>
             </div>
         </div>
     <br/> 
@@ -123,7 +125,7 @@
                     <p><br></p>
                     <img src = "images/pear w shovel.svg"/>
                     <h1 class = "who-box">You manage a compost hub</h1>
-                    <p>You oversee the maintenance of a compost hub. This might mean a school garden, a community park, or a municipal composting center. </p>
+                    <p>You oversee the maintenance of a compost hub. This might mean a school garden, a community park, or a municipal composting center. <br> <br>Click this card to join as a Compost Hub! </p>
                 </div>
                 <div class = "col-2 text-center"></div>
                 <div class = "col-3 text-center border-custom" onclick="location.href='createaccount-volunteer.html';" style="cursor: pointer;">
@@ -131,7 +133,7 @@
                     <img src = "images/orange w cap.svg" />
                     <h1 class = "who-box" style="position:relative; top: 15px;">You want to get involved with composting</h1>
                     <!-- not sure why there's a line break here -->
-                    <p>You’re interested in composting. You want to pick up compost, donate your waste, or volunteer at a local compost hub.</p>
+                    <p>You’re interested in composting. You want to pick up compost, donate your waste, or volunteer at a local compost hub. <br> <br>Click this card to join as a Volunteer!</p>
                 </div>
                 <div class = "col-2"></div>
             </div>
